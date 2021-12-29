@@ -1,6 +1,302 @@
 <fable>
-	<page>
+	<page background="bgblack.png" soundtrack="gameover.wav"> 
+    <agent img="dead.png" x="200" y="100" width="150" height="150" /> 
+    <agent text="GAME OVER" x="105" y="325" color="red" width="400" font-size="50"/>
+    <agent text="Retry?" x="400" y="125" color="white" width="300" font-size="22" />
+    <agent text="Sim" x="400" y="100" color="white" width="300" font-size="14" on-touch="_NEXT_PAGE"/>
+    <agent text="Não" x="445" y="100" color="white" width="300" font-size="14" on-touch="story1" >
+     <story1 text="<<<" x="445" y="100" color="white" width="300" font-size="14" on-touch="_NEXT_PAGE"/>
+     </agent>
   
     
   </page>
+  
+  <page background="bg1.png" soundtrack="forests.wav"> 
+    
+    <agent img="ground2.png" x="0" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="100" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="200" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="300" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="400" y="0" width="100" height="100" />
+    <agent img="stone.png" x="300" y="100" width="45" height="35" />
+    <agent img="bush.png" x="410" y="100" width="70" height="35" />
+    <agent img="bush.png" x="10" y="100" width="70" height="35" />
+    <agent img="mushroom.png" x="272" y="100" width="25" height="25" />
+    <agent img="mushroom.png" x="349" y="100" width="25" height="25" />
+   
+    <agent img="cavaleiro.png" x="25" y="90" width="90" height="90" />
+    <agent text="Não acredito que eu morri justo quando estava para matar o boss final, QUE DROGA!" x="30" y="180" width="300" font-size="15" color="white" on-touch="_NEXT_PAGE" />
+    
+  </page>
+  
+  <page background="bg1.png" soundtrack="forests.wav"> 
+    
+    <agent img="ground2.png" x="0" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="100" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="200" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="300" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="400" y="0" width="100" height="100" />
+    <agent img="stone.png" x="300" y="100" width="45" height="35" />
+    <agent img="bush.png" x="410" y="100" width="70" height="35" />
+    <agent img="bush.png" x="10" y="100" width="70" height="35" />
+    <agent img="mushroom.png" x="272" y="100" width="25" height="25" />
+    <agent img="mushroom.png" x="349" y="100" width="25" height="25" />
+   
+    <agent img="cavaleiro.png" x="25" y="90" width="90" height="90" />
+    <agent img="orc.png" x="390" y="100" width="111" height="111" />
+    <agent text="Lá vamos nós, matar 300 orcs DE NOVO, o desenvolvedor só deveria querer fazer o jogador bater no PC mesmo." x="30" y="180" width="300" font-size="15" color="white" on-touch="_NEXT_PAGE" />
+    
+  </page>
+  
+  <page background="bg1.png" soundtrack="forests.wav"> 
+    
+    <agent img="ground2.png" x="0" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="100" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="200" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="300" y="0" width="100" height="100" />
+    <agent img="ground2.png" x="400" y="0" width="100" height="100" />
+    <agent img="stone.png" x="300" y="100" width="45" height="35" />
+    <agent img="bush.png" x="410" y="100" width="70" height="35" />
+    <agent img="bush.png" x="10" y="100" width="70" height="35" />
+    <agent img="mushroom.png" x="272" y="100" width="25" height="25" />
+    <agent img="mushroom.png" x="349" y="100" width="25" height="25" />
+   
+    <agent img="cavaleiro.png" x="25" y="90" width="90" height="90" />
+    <agent text="Huh? Ele acabou de correr de mim? Ah, tanto faz, menos trabalho pra mim." x="30" y="180" width="300" font-size="15" color="white" on-touch="_NEXT_PAGE"/>
+    
+  </page>
+  
+  <page background="bgnoite.png" soundtrack="windy.wav"> 
+    
+    <agent img="ground1_2.png" x="0" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="100" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="200" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="300" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="400" y="0" width="100" height="100" />
+    <agent img="darktree.png" x="120" y="100" width="150" height="200" />
+    <agent img="bush1_3.png" x="410" y="100" width="70" height="35" />
+    <agent img="bush2.png" x="10" y="100" width="70" height="35" />
+    <agent img="skull.png" x="160" y="250" width="36" height="36" />
+    <agent img="skeleton.png" x="120" y="100" width="60" height="30" />
+    <agent img="grave.png" x="320" y="100" width="60" height="50" />
+   
+    <agent img="cavaleiro.png" x="25" y="90" width="90" height="90" />
+    <agent text="Ué? O que é isso? Uma nova fase? Aqui era bem mais florido e alegre..." x="30" y="180" width="300" font-size="15" color="white" on-touch="_NEXT_PAGE"/>
+      
+  </page>
+  
+  <page background="bgnoite.png" soundtrack="windy.wav"> 
+    
+    <agent img="ground1_2.png" x="0" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="100" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="200" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="300" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="400" y="0" width="100" height="100" />
+    <agent img="darktree.png" x="120" y="100" width="150" height="200" />
+    <agent img="bush1_3.png" x="410" y="100" width="70" height="35" />
+    <agent img="bush2.png" x="10" y="100" width="70" height="35" />
+    <agent img="skull.png" x="160" y="250" width="36" height="36" />
+    <agent img="skeleton.png" x="120" y="100" width="60" height="30" />
+    <agent img="grave.png" x="320" y="100" width="60" height="50" />
+   
+    <agent img="cavaleiro.png" x="25" y="90" width="90" height="90" />
+    <agent text="E tá tudo tão... silencioso..." x="30" y="180" width="300" font-size="15" color="white" on-touch="_NEXT_PAGE"/>
+      
+  </page>
+  
+  <page background="bgnoite.png" soundtrack="windy.wav"> 
+    
+    <agent img="ground1_2.png" x="0" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="100" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="200" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="300" y="0" width="100" height="100" />
+    <agent img="ground1_2.png" x="400" y="0" width="100" height="100" />
+    <agent img="darktree.png" x="120" y="100" width="150" height="200" />
+    <agent img="bush1_3.png" x="410" y="100" width="70" height="35" />
+    <agent img="bush2.png" x="10" y="100" width="70" height="35" />
+    <agent img="skull.png" x="160" y="250" width="36" height="36" />
+    <agent img="skeleton.png" x="120" y="100" width="60" height="30" />
+    <agent img="grave.png" x="320" y="100" width="60" height="50" />
+   
+    <agent img="cavaleiro.png" x="25" y="90" width="90" height="90" />
+    <agent text="Bom, nada a fazer se não seguir em frente." x="30" y="180" width="300" font-size="15" color="white" on-touch="_NEXT_PAGE"/>
+      
+  </page>
+  
+  <page background="bgdeserto.png" soundtrack="blowingsand.wav"> 
+    
+    <agent img="grounddeserto.png" x="0" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="100" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="200" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="300" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="400" y="0" width="100" height="100" />
+    <agent img="desertocacto2.png" x="160" y="100" width="75" height="80" />
+    <agent img="desertocacto.png" x="400" y="100" width="70" height="80" />
+    <agent img="desertobush.png" x="0" y="100" width="70" height="35" />
+    <agent img="desertobush.png" x="65" y="100" width="70" height="35" />
+    <agent img="desertgrass.png" x="480" y="100" width="36" height="36" />
+    <agent img="desertoskeleton.png" x="390" y="95" width="60" height="30" />
+    <agent img="desertstone.png" x="280" y="100" width="60" height="30" />
+   
+    <agent img="cavaleiro.png" x="45" y="90" width="90" height="90" />
+    <agent text="O deserto também? Onde estão os lagartos que me atacavam a cada passo que eu dava?" x="30" y="180" width="300" font-size="15" color="black" on-touch="_NEXT_PAGE"/>
+    
+  </page>
+  
+  <page background="bgdeserto.png" soundtrack="blowingsand.wav"> 
+    
+    <agent img="grounddeserto.png" x="0" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="100" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="200" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="300" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="400" y="0" width="100" height="100" />
+    <agent img="desertocacto2.png" x="160" y="100" width="75" height="80" />
+    <agent img="desertocacto.png" x="400" y="100" width="70" height="80" />
+    <agent img="desertobush.png" x="0" y="100" width="70" height="35" />
+    <agent img="desertobush.png" x="65" y="100" width="70" height="35" />
+    <agent img="desertgrass.png" x="480" y="100" width="36" height="36" />
+    <agent img="desertoskeleton.png" x="390" y="95" width="60" height="30" />
+    <agent img="desertstone.png" x="280" y="100" width="60" height="30" />
+   
+    <agent img="cavaleiro.png" x="45" y="90" width="90" height="90" />
+    <agent text="... Eu fiz  tudo isso?" x="30" y="180" width="300" font-size="15" color="black" on-touch="_NEXT_PAGE"/>
+    
+  </page>
+  
+  <page background="bgdeserto.png" soundtrack="blowingsand.wav"> 
+    
+    <agent img="grounddeserto.png" x="0" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="100" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="200" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="300" y="0" width="100" height="100" />
+    <agent img="grounddeserto.png" x="400" y="0" width="100" height="100" />
+    <agent img="desertocacto2.png" x="160" y="100" width="75" height="80" />
+    <agent img="desertocacto.png" x="400" y="100" width="70" height="80" />
+    <agent img="desertobush.png" x="0" y="100" width="70" height="35" />
+    <agent img="desertobush.png" x="65" y="100" width="70" height="35" />
+    <agent img="desertgrass.png" x="480" y="100" width="36" height="36" />
+    <agent img="desertoskeleton.png" x="390" y="95" width="60" height="30" />
+    <agent img="desertstone.png" x="280" y="100" width="60" height="30" />
+   
+    <agent img="cavaleiro.png" x="45" y="90" width="90" height="90" />
+    <agent text="Melhor nem pensar nisso, em frente de novo" x="30" y="180" width="300" font-size="15" color="black" on-touch="_NEXT_PAGE"/>
+    
+  </page>
+  
+  <page background="bgneve.png" soundtrack="blizzard.wav"> 
+    
+    <agent img="groundneve.png" x="0" y="0" width="100" height="100" />
+    <agent img="groundneve2.png" x="100" y="0" width="100" height="100" />
+    <agent img="groundneve3.png" x="400" y="0" width="100" height="100" />
+    
+    <agent img="nevejump1.png" x="435" y="100" width="50" height="50" />
+    
+    <agent img="igloo.png" x="-34" y="100" width="150" height="80" />
+   
+    <agent img="cavaleiro.png" x="10" y="90" width="90" height="90" />
+    <agent text="Pelo menos esse puzzle é o mesmo... só cortar a árvore e atravessar." x="20" y="300" width="300" font-size="15" color="white" on-trigger="cortada"> 
+      <cortada text="Atrevessar e terminar logo, assim eu saio desse inferno... que eu mesmo criei." x="20" y="180" width="300" font-size="15" color="white" on-touch="story2" />
+    </agent>
+    
+    <agent img="treetrunk.png" x="135" y="100" width="45" height="30" />
+    
+    <agent img="nevetree.png" x="90" y="100" width="150" height="200" on-touch="cortada">
+      <cortada img="felldowntree.png" x="190" y="31" width="230" height="150" on-touch="_NEXT_PAGE" /> 
+    </agent>
+    
+  </page>
+  
+  <page background="bglab.png" soundtrack="lab.wav"> 
+    
+    <agent img="scafold2.png" x="0" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="100" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="200" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="300" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="400" y="0" width="100" height="100" />
+    
+    <agent img="cavaleiro.png" x="130" y="93" width="90" height="90" />
+    
+    <agent img="door1.png" x="400" y="100" width="65" height="100" on-touch="_NEXT_PAGE"/>
+    
+    <agent img="box1.png" x="388" y="100" width="90" height="95"/>
+    
+    <agent img="barril1.png" x="10" y="100" width="50" height="65" on-touch="_NEXT_PAGE"/>
+    <agent img="barril2.png" x="70" y="100" width="50" height="65" on-touch="_NEXT_PAGE" />
+    <agent img="saw.png" x="230" y="100" width="55" height="40" />
+    <agent img="potion.png" x="305" y="92.5" width="55" height="50" on-touch="_NEXT_PAGE" />
+    
+    <agent text="Aquilo é uma barricada? Eu tenho que quebrar ela de algum jeito." x="50" y="200" width="300" font-size="15" color="white" />
+    
+    
+    
+  </page>
+  
+  <page background="bglab.png" soundtrack="lab.wav"> 
+    
+    <agent img="scafold2.png" x="0" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="100" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="200" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="300" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="400" y="0" width="100" height="100" />
+    
+    <agent img="cavaleiro.png" x="130" y="93" width="90" height="90" />
+    
+    <agent img="door1.png" x="400" y="100" width="65" height="100" on-touch="_NEXT_PAGE"/>
+    
+    <agent img="box1.png" x="388" y="100" width="90" height="95" drop-zone="explode" >
+      <explode y="-200" />
+    </agent>  
+    
+    <agent img="barril1.png" x="10" y="100" width="50" height="65" />
+    <agent img="barril2.png" x="70" y="100" width="50" height="65" />
+    
+    <agent img="saw.png" x="230" y="100" width="55" height="40" draggable="true" on-drop="explode" on-zone="outscreen" 
+      on-trigger="outscreen">
+    
+      <outscreen y="-200" /> 
+    </agent> 
+    
+    <agent text="Essa poção era de vida, e eu sou muito fraco pra carregar os barris." x="50" y="200" width="300" font-size="15" color="white" on-trigger="outscreen"> 
+      <outscreen text="Agora sim, o boss final..." x="50" y="200" width="300" font-size="15" color="white" />
+    </agent>
+    
+    
+    
+  </page>
+  
+  <page background="bglab.png" soundtrack="lab.wav"> 
+    
+    <agent img="scafold2.png" x="0" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="100" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="200" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="300" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="400" y="0" width="100" height="100" />
+    
+    <agent img="placa.png" x="225" y="100" width="45" height="45" />
+    <agent img="letter.png" x="225" y="115" width="45" height="30" on-touch="_NEXT_PAGE"/>
+    
+    
+    <agent img="cavaleiro.png" x="145" y="93" width="90" height="90" />
+    <agent text="Não tem ninguém. Apenas uma carta na placa." x="130" y="180" width="300" font-size="15" color="white" />
+    
+  </page>
+  
+  <page background="bglab.png" soundtrack="lab.wav"> 
+    
+    <agent img="scafold2.png" x="0" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="100" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="200" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="300" y="0" width="100" height="100" />
+    <agent img="scafold2.png" x="400" y="0" width="100" height="100" />
+    
+    <agent img="placa.png" x="225" y="100" width="45" height="45" />
+    <agent img="letter.png" x="225" y="115" width="45" height="30" on-touch="_NEXT_PAGE"/>
+    
+    
+    <agent img="cavaleiro.png" x="145" y="93" width="90" height="90" />
+    <agent text="A carta diz: 'Os orcs e os lagartos do deserto já conseguiram fugir, não sei se a barricada vai durar tempo o suficiente até todos nós escaparmos, até onde sabemos ele tem infinitas vidas. Os que sobraram e estão lendo essa carta, apenas tenha cuidado e fuja o mais rápido daí' " x="130" y="180" width="300" font-size="15" color="white" />
+    <agent text="FIM" x="470" y="100" width="300" font-size="15" color="white" />
+    
+  </page>
+  
 </fable>
